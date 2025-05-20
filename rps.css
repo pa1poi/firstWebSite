@@ -1,0 +1,188 @@
+.he {
+    height: 60px;
+    width: 100%;
+    background-color:rgba(60, 103, 125, 0.77);
+    display: flex;
+    align-items: center;     /* center vertically */
+    justify-content: center; /* center horizontally */
+    color:red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-stroke: 0.5px gold;
+    font-size: x-large;
+    outline: 2px solid black;
+}
+
+
+.rock{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    margin-top: 50px;
+    border-radius: 20%;
+    background-image: url('rock.png');
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.paper{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 5%;
+    border-radius: 20%;
+    background-image: url('papers.png');
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.scissors{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 5%;
+    border-radius: 20%;
+    background-image: url('scissor.png');
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.contents{
+    display: flex;
+    margin: 10px 0% 40px 30%;
+}
+
+.rock:hover{
+    cursor: pointer;
+    border: #333 solid 3px;
+    background-image: url('rock-one-eyebrow-raised-rock-staring.gif');
+}
+.paper:hover{
+    cursor: pointer;
+    border: #333 solid 3px;
+    background-image: url('throwing-papers-im-done.gif');
+}
+.scissors:hover{
+    cursor: pointer;
+    border: #333 solid 3px;
+    background-image: url('scissoring-scissor-fight.gif');
+}
+
+
+.display{
+    height: 70px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 40%;
+    font-size: xx-large;
+    font-weight: bolder;
+    background-color: salmon;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scoreboard {
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color:rgba(60, 103, 125, 0.4);
+    width: 290px;
+    margin-left: 40%;
+    border: 4px solid white;
+    border-radius: 8px;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: rgba(255, 227, 194, 0.8);
+    height: auto;
+    width: 150px;
+    margin-left: 25%;
+    border-radius: 10px;
+    margin-top: 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+.scores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; /* space between you and computer */
+}
+
+.you, .draw, .computer {
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: rgb(228, 252, 180);
+}
+
+body{
+    background-color:rgba(60, 103, 125, 0.7);
+}
+
+
+.disps {
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 20px;
+    display: flex;
+    gap: 170px;
+    width: auto;
+    /* background-color: greenyellow; */
+    align-items: center;
+    justify-content: center;
+}
+
+.user{
+    display: flex;
+    gap: 4px;
+    height: 20px;
+    height: 30px;
+    width: 140px;
+    background-color: lightblue;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+}
+
+.computer1{
+    display: flex;
+    gap: 4px;
+    height: 30px;
+    width: 140px;
+    background-color: lightcoral;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+}
+/* #dyoi{
+    margin-left: 15px;
+    height: auto;
+    width: 160px;
+    background-color: lightblue;   
+}
+
+#dcoi{
+    height: auto;
+    width: 160px;
+    background-color: lightcoral;
+} */
+
+#r1{
+    display: inline-flex;
+    margin-top : 200px;
+    color: whitesmoke;
+    font-weight: 700;
+}
